@@ -1,0 +1,176 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+#skill {
+  background: radial-gradient(circle, #9146e3 10%, transparent 11%);
+  background-size: 3em 3em;
+  background-color: #ffffff;
+  opacity: 1;
+}
+#project1 {
+  background-image: url(../img/project1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.25rem;
+}
+#project2 {
+  background-image: url(../img/project2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.25rem;
+}
+#project3 {
+  background-image: url(../img/project3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.25rem;
+}
+#project1:hover {
+  background-image: none;
+  background-color: black;
+  #btnview {
+    display: block;
+  }
+}
+#project2:hover {
+  background-image: none;
+  background-color: black;
+  #btnview {
+    display: block;
+  }
+}
+#project3:hover {
+  background-image: none;
+  background-color: black;
+  #btnview {
+    display: block;
+  }
+}
+#project4:hover {
+  #project4txt {
+    top: 200%;
+  }
+}
+#project5:hover {
+  #project5txt {
+    top: 200%;
+  }
+}
+#project6:hover {
+  #project6txt {
+    top: 200%;
+  }
+}
+#email {
+  background-image: url(../img/subscribe.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#emailtxtbox {
+  height: 40px;
+  width: 25vw;
+  background-color: transparent;
+}
+#getstartedbtn {
+  height: 40px;
+  width: 10vw;
+}
+#navbar {
+  width: 100%;
+}
+#main1 {
+  display: flex;
+}
+
+#resumecontainer{
+  background-image: url(../img/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 640px) {
+  #emailtxtbox {
+    height: 40px;
+    width: 40vw;
+    background-color: transparent;
+  }
+  #getstartedbtn {
+    height: 40px;
+    width: 20vw;
+  }
+}
+@media (max-width: 640px) {
+  #emailtxtbox {
+    height: 40px;
+    width: 98%;
+    background-color: transparent;
+  }
+  #getstartedbtn {
+    height: 40px;
+    width: 90%;
+  }
+}
+@media (min-width: 640px) {
+  #email {
+    position: relative;
+    top: 85rem;
+  }
+  #contact {
+    position: relative;
+    top: 80rem;
+  }
+}
+@media (min-width: 768px) {
+  #email {
+    position: relative;
+    top: 10rem;
+  }
+  #contact {
+    position: relative;
+    top: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #projectcontainer1 {
+    flex-wrap: no-wrap;
+    height: 13rem;
+  }
+  #projectcontainer2 {
+    flex-wrap: no-wrap;
+    height: 13rem;
+  }
+  #emailtxtbox {
+    height: 40px;
+    width: 35vw;
+    background-color: transparent;
+  }
+  #getstartedbtn {
+    height: 40px;
+    width: 15vw;
+  }
+  #email {
+    position: relative;
+    top: 0rem;
+  }
+  #contact {
+    position: relative;
+    top: 0rem;
+  }
+}
+@media (min-width: 1280px) {
+  #emailtxtbox {
+    height: 50px;
+    width: 35vw;
+    background-color: transparent;
+  }
+  #getstartedbtn {
+    height: 50px;
+    width: 15vw;
+  }
+}
